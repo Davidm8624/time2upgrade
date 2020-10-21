@@ -91,4 +91,26 @@ body {
 }
 .services {
     color: white;
+    text-align: center;
+    display: grid;
+    gap: 20px;
+    justify-content: center;
+
 }
+
+article{
+    background-color:rgb(238, 238, 238);
+    align-items: center;
+    color: black;
+    padding: 20px;
+    width: 1000px;
+}
+
+.title{
+    font-size: 2rem;
+}
+
+.description{
+    font-size: 1rem;
+}
+
