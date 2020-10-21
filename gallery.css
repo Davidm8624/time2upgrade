@@ -5,37 +5,30 @@ background-attachment: fixed;
 background-repeat: no-repeat;
 background-size: cover;
 }
-
 nav{
     height: 50px;
     background-color: rgb(238, 238, 238);
     display: flex;
     margin-bottom: 10px;
 }
-
 nav ul{
     padding: 0;
     list-style-type: none;
     flex: 2;
     display: flex;
 }
-
 nav li{
     display: inline;
     text-align: center;
     flex: 1;
-    
 }
-
 nav a{
     display: inline-block;
     font-size: 2rem;
     text-transform: uppercase;
     text-decoration: none;
     color: black;
-    
 }
-
 nav form{
     float: 1;
     display: flex;
@@ -43,12 +36,10 @@ nav form{
     height: 100%;
     padding: 0 2rem;
 }
-
 input{
     font-size: 1rem;
     height: 16px;
 }
-
 input[type="search"]{
     flex: 3;
 }
@@ -59,35 +50,83 @@ input[type="submit"]{
     border: 0px;
     color: white;
 }
-
 .header{
     background-color: rgb(238, 238, 238);
 }
-
 .header-name{
     text-align: center;
     border-bottom: 2px solid black;
     margin: 2px;
 }
 
-.title{
-    text-align: center;
-    color: white;
+.container{
+    width: 100%;
+    margin: 0 auto;
+    font: .9rem/1.2 arial, helvetica, sans-serif;
+    display: grid;
+    grid-row: repeat(5, auto);
+    grid-column: repeat(3, auto);
+    gap: 15px;
+    justify-content: center;
+    grid-template-areas:
+    "video video video"
+    "pic-1 pic-2 pic-3"
+    "pic-4 pic-5 pic-6"
+    "pic-7 pic-8 pic-9"
+    ". pic-10 .";
 }
 
-.large-logo{
-    text-align: center;
+.video{
+    width: 500px;
+    height: 300px;
+    border-radius: 5px;
+    background-color: rgba(192, 18, 18, 0.37);
+    padding: 1rem;
+    position: relative;
+    grid-area: video;
 }
 
-h1{
-    font-size:4rem;
-    text-align: center;
-
+.pic{
+    width: 140px;
+    height: 140px;
+    border-radius: 5px;
+    background-color: rgba(0, 255, 255, 0.267);
+    padding: 1rem;
+    
 }
 
-h2{
-    font-size:3rem;
-    text-align: center;
-    color: white;
-    text-shadow: 5px 5px 40px white;
+.pic-1{
+    grid-area: pic-1;
+}
+.pic-2{
+    grid-area: pic-2;
+}
+.pic-3{
+    grid-area: pic-3;
+}
+.pic-4{
+    grid-area: pic-4;
+}
+.pic-5{
+    grid-area: pic-5;
+}
+.pic-6{
+    grid-area: pic-6;
+}
+.pic-7{
+    grid-area: pic-7;
+}
+.pic-8{
+    grid-area: pic-8;
+}
+.pic-9{
+    grid-area: pic-9;
+}
+.pic-10{
+    grid-area: pic-10;
+}
+
+
+/*.pic-{
+    grid-area: pic-;
 }
