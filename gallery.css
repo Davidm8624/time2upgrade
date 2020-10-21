@@ -80,7 +80,6 @@ input[type="submit"]{
     width: 500px;
     height: 300px;
     border-radius: 5px;
-    background-color: rgba(192, 18, 18, 0.37);
     padding: 1rem;
     position: relative;
     grid-area: video;
@@ -125,7 +124,6 @@ input[type="submit"]{
 .pic-10{
     grid-area: pic-10;
 }
-
 
 /*.pic-{
     grid-area: pic-;
