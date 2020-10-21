@@ -67,13 +67,14 @@ input[type="submit"]{
     grid-row: repeat(5, auto);
     grid-column: repeat(3, auto);
     gap: 15px;
-    justify-content: center;
+    justify-content: start space-evenly;
     grid-template-areas:
     "video video video"
     "pic-1 pic-2 pic-3"
     "pic-4 pic-5 pic-6"
     "pic-7 pic-8 pic-9"
     ". pic-10 .";
+    grid-template-rows: 500px 400px 400px 400px 400px;
 }
 
 .video{
@@ -89,9 +90,9 @@ input[type="submit"]{
 .pic{
     width: 140px;
     height: 140px;
-    border-radius: 5px;
+    /*border-radius: 5px;
     background-color: rgba(0, 255, 255, 0.267);
-    padding: 1rem;
+    padding: 1rem;*/
     
 }
 
