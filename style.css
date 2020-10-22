@@ -98,3 +98,10 @@ h2{
     color: white;
     text-shadow: 5px 5px 40px white;
 }
+
+p{
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+}

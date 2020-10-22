@@ -81,3 +81,37 @@ h1{
     color: white;
     text-align: center;
 }
+
+.services {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 1rem;
+}
+
+.options{
+    display: flex;
+    color: black;
+    padding: 20px;
+    width: 1000px;
+    background-color:rgb(238, 238, 238);
+    flex-direction: column;
+    list-style-type: none;
+    z-index: 1;
+
+}
+
+.price{
+    display: flex;
+    flex-direction: row-reverse;
+    border-bottom: 2px dotted rgb(58, 58, 58);
+    position: relative;
+    bottom: 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    z-index: -1;
+}
+
+.button{
+    align-self: center;
+}
