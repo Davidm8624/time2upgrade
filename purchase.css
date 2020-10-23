@@ -77,31 +77,56 @@ text-align: center;
 border-bottom: 2px solid black;
 }
 
-.title{
-    text-align: center;
-    color: white;
-}
-
-.large-logo{
-    text-align: center;
-}
-
 h1{
-    font-size:4rem;
-    text-align: center;
-
-}
-
-h2{
-    font-size:3rem;
-    text-align: center;
-    color: white;
-    text-shadow: 5px 5px 40px white;
-}
-
-p{
     color: white;
     text-align: center;
-    font-size: 1.5rem;
-    font-weight: bold;
+}
+
+.paymentInfo{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 1rem;
+}
+
+.choices{
+    display: flex;
+    color: black;
+    padding: 20px;
+    width: 1000px;
+    background-color:rgb(238, 238, 238);
+    flex-direction: column;
+    list-style-type: none;
+    z-index: 1;
+    align-items: center;
+}
+
+.state{
+    width: 6rem;
+    margin-right: 1rem;
+}
+
+.zip{
+    width: 4rem;
+}
+
+.city{
+    width: 16rem;
+}
+
+.address{
+    width: 14.5rem;
+}
+
+.email{
+    width: 15.5rem;
+}
+
+.cvc{
+    width: 3rem;
+}
+
+.button{
+    margin-top: 2rem;
+    font-size: 1rem;
 }
